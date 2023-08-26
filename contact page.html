@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .card {
+            float: right;
+            margin-right: 20px;
+            height: 500px;
+            width: 650px;
+            background-color: white;
+            box-shadow: 2px 8px 5px 0 rgba(0, 0, 0, 0.2);
+        }
+        .blue {
+            height: 400px;
+            width: 400px;
+            background-image: linear-gradient(to left, rgb(234, 191, 191) 20px, rgb(60, 38, 146), blue);
+            border-radius: 15px 50% 20% 50%;
+            margin: 25px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .blue h1 {
+            font-size: 90px;
+            color: white; 
+            text-shadow: 7px 5px 8px black;  
+        }
+        .contact-me {
+            padding: 20px;
+        }
+        .contact {
+            float: left;
+            font-size: 25px;
+            text-shadow: 2px 3px 6px black;  
+        }
+        @media (max-width:650px) {
+            .contact {
+                float: none;
+                text-align: center;
+            }
+            .card  {
+                float: none;
+                height: auto;
+                width: auto;
+                padding: 20px;
+            }
+            .blue {
+                margin: 20px;
+                padding: 30px;
+                height: auto;
+                width: auto;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="contact-me">
+    <div class="contact">
+        <h1>How to Contact with me</h1>
+        <p>You can Call or Text me also.</p>
+        <p> my dear husband or my best friend Nilesh</p>
+        <address>
+            G-5, Dharti Apartment,<br>
+            Himmat Nagar, Hirabaug,
+            Varachha Road, Surat <br>
+            or <br>
+            E-203, Sanskrut Residency Sarthana Jakatnaka, Surat
+
+        </address>
+        <p>Mobile No: +91 70961 17760</p>
+        <p>Email Id: sonalijethva53@gmail.com</p>
+        <div class="button"><a href="index.html">Home</a></div>
+    </div>
+
+    <div class="card">
+        <div class="blue">
+            <h1>Love</h1>
+        </div>
+
+    </div>
+</div>
+    
+</body>
+</html>

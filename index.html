@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            background: url(pexels-ben-mack-5326909.jpg) no-repeat scroll;
+
+        }
+        * {
+            box-sizing: border-box;
+        }
+        nav {
+            padding: 20px;
+            float: left;
+            position: fixed;
+        }
+        nav a {
+            
+            text-decoration: none;
+            padding: 20px;
+            color: black;
+            font-size: 20px;
+
+        }
+        nav a:hover {
+            color: white;
+            font-size: 25px;
+        }
+        .text-1 {
+            padding: 20%;
+        }
+        @media (max-width: 650px) {
+            nav {
+                text-align: center;
+                float: none;
+                position: sticky;
+                background-color: black;
+            }
+            nav a {
+                color: white;
+                display: flex;
+                font-size: 16px;
+                width: 100%;
+                text-align: center;
+            }
+            .text-1 {
+                padding: 10px;
+                text-align: center;
+                margin-top: 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="loveletter.html">Love-Letter</a>
+        <a href="calander.html">Calander</a>
+        <a href="contact page.html">Contact</a>
+    </nav>
+    <div class="text-1">
+        <h1>Happy Journey To Australia</h1>
+        <p>I wish you didn’t have to go so soon – but I am so glad for the time we had together. Have a safe journey</p>
+    </div>
+</body>
+
+</html>
